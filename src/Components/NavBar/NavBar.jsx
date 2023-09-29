@@ -1,17 +1,17 @@
 import "./NavBar.css";
-import { CardWidget } from "../CardWidget/CardWidget";
 
 export const NavBar = () => {
   return (
-    <div className="contenedorNavBar">
-      <img src="/imagenes/logo-bm.jpg" alt="" />
-
-      <div className="navBar_Items">
-        <a href="Productos">Productos</a>
-        <a href="Nuestra historia">Nuestra Historia</a>
-        <a href="Contacto">Contacto</a>
-        <a href="Cardwidget">{<CardWidget />}</a>
-      </div>
-    </div>
+    <nav>
+      <ul>
+        <li>Rostro</li>
+        <li>Boca</li>
+        <li>Cejas</li>
+        <li>Ojos</li>
+        <li>Uñas</li>
+        <li>Nuestra Historia</li>
+        <li>Contactanos</li>
+      </ul>
+    </nav>
   );
 };
